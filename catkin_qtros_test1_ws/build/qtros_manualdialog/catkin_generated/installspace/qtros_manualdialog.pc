@@ -1,0 +1,8 @@
+prefix=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/install
+
+Name: qtros_manualdialog
+Description: Description of qtros_manualdialog
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/install/lib 
+Requires: 
