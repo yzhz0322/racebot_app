@@ -4,7 +4,7 @@
 -I/usr/include/qt4
 -I/usr/include/qt4/QtGui
 -I/usr/include/qt4/QtCore
--I/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog
+-I/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_BUILD_SHARED_LIBS=1
 -DROS_PACKAGE_NAME="qtros_manualdialog"
@@ -14,5 +14,5 @@
 -DQT_CORE_LIB
 -DQT_NO_KEYWORDS
 -o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp

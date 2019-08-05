@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
 ../../../../src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
 ../../../../src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
 ../../../../src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx
 QtCore/qglobal.h
 -
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 QtGui/QMainWindow
 -
 ui_main_window.h
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/ui_main_window.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/ui_main_window.h
 qnode.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 manualdialog.h
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
 QDialog
 -
 qnode.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 ros/ros.h
 -
 string
@@ -50,15 +50,15 @@ QStringListModel
 std_msgs/String.h
 -
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
 QtGui
 -
 QApplication
 -
 ../include/qtros_manualdialog/main_window.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
 QtGui
 -
 QMessageBox
@@ -66,15 +66,15 @@ QMessageBox
 iostream
 -
 ../include/qtros_manualdialog/main_window.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
 ../include/qtros_manualdialog/manualdialog.h
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
 ui_manualdialog.h
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/ui_manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/ui_manualdialog.h
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
 ros/ros.h
 -
 ros/network.h
@@ -86,7 +86,7 @@ std_msgs/String.h
 sstream
 -
 ../include/qtros_manualdialog/qnode.hpp
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 geometry_msgs/Twist.h
 -
 qdebug.h

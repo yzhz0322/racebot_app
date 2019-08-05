@@ -13,8 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o"
   "CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o"
   "CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o"
-  "/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog.pdb"
-  "/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog.pdb"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog"
 )
 
 # Per-language clean rules from dependency scanning.

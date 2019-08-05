@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src
+CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build
+CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build
 
 # Include any dependencies generated for this target.
 include qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend.make
@@ -57,47 +57,47 @@ include qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/progress.make
 # Include the compile flags for this target's objects.
 include qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
 
-qtros_manualdialog/qrc_images.cxx: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images/icon.png
+qtros_manualdialog/qrc_images.cxx: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images/icon.png
 qtros_manualdialog/qrc_images.cxx: qtros_manualdialog/resources/images.qrc.depends
-qtros_manualdialog/qrc_images.cxx: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc
+qtros_manualdialog/qrc_images.cxx: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cxx"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/rcc -name images -o /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc
 
-qtros_manualdialog/ui_main_window.h: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/main_window.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/ui_main_window.h /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/main_window.ui
+qtros_manualdialog/ui_main_window.h: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/main_window.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/ui_main_window.h /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/main_window.ui
 
-qtros_manualdialog/ui_manualdialog.h: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/manualdialog.ui
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_manualdialog.h"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/ui_manualdialog.h /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/manualdialog.ui
+qtros_manualdialog/ui_manualdialog.h: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/manualdialog.ui
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ui_manualdialog.h"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/uic -o /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/ui_manualdialog.h /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/ui/manualdialog.ui
 
-qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx: qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/qtros_manualdialog/moc_main_window.cxx"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/qtros_manualdialog/moc_main_window.cxx"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx_parameters
 
-qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx: qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/qtros_manualdialog/moc_qnode.cxx"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/qtros_manualdialog/moc_qnode.cxx"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx_parameters
 
-qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
 qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx: qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx_parameters
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/qtros_manualdialog/moc_manualdialog.cxx"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/qtros_manualdialog/moc_manualdialog.cxx"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog && /usr/lib/x86_64-linux-gnu/qt4/bin/moc @/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx_parameters
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
-qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
+qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/src/main.cpp.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp > CMakeFiles/qtros_manualdialog.dir/src/main.cpp.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp > CMakeFiles/qtros_manualdialog.dir/src/main.cpp.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/src/main.cpp.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp -o CMakeFiles/qtros_manualdialog.dir/src/main.cpp.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp -o CMakeFiles/qtros_manualdialog.dir/src/main.cpp.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o.requires:
 
@@ -111,17 +111,17 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o.provides.bui
 
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
-qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
+qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp > CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp > CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp -o CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp -o CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o.requires:
 
@@ -135,17 +135,17 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o.provi
 
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
-qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
+qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp > CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp > CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp -o CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp -o CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o.requires:
 
@@ -159,17 +159,17 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o.prov
 
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
-qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
+qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp > CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp > CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp -o CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp -o CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o.requires:
 
@@ -184,16 +184,16 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o.provides.bu
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o: qtros_manualdialog/qrc_images.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx > CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx > CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx -o CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx -o CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o.requires:
 
@@ -208,16 +208,16 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o.provides.b
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o: qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o.requires:
 
@@ -232,16 +232,16 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o: qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o.requires:
 
@@ -256,16 +256,16 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/flags.make
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o: qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o -c /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o -c /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.i"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.i
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx > CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.i
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.s"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.s
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx -o CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.s
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o.requires:
 
@@ -292,42 +292,42 @@ qtros_manualdialog_OBJECTS = \
 # External object files for target qtros_manualdialog
 qtros_manualdialog_EXTERNAL_OBJECTS =
 
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/build.make
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libQtGui.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libQtCore.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libroscpp.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librostime.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libcpp_common.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog"
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtros_manualdialog.dir/link.txt --verbose=$(VERBOSE)
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/build.make
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libQtGui.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libQtCore.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libroscpp.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/librostime.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /opt/ros/kinetic/lib/libcpp_common.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog: qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog"
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/qtros_manualdialog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/build: /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog
+qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/build: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog
 
 .PHONY : qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/build
 
@@ -343,7 +343,7 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/requires: qtros_manualdialo
 .PHONY : qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/requires
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/clean:
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -P CMakeFiles/qtros_manualdialog.dir/cmake_clean.cmake
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -P CMakeFiles/qtros_manualdialog.dir/cmake_clean.cmake
 .PHONY : qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/clean
 
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend: qtros_manualdialog/qrc_images.cxx
@@ -352,6 +352,6 @@ qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend: qtros_manualdialog/
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend: qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend: qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
 qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend: qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/depend
 
