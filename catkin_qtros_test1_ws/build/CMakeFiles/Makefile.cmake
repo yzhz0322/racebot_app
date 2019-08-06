@@ -15,10 +15,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "catkin_generated/order_packages.cmake"
   "qtros_manualdialog/catkin_generated/ordered_paths.cmake"
   "qtros_manualdialog/catkin_generated/package.cmake"
+<<<<<<< HEAD
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/CMakeLists.txt"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/CMakeLists.txt"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/package.xml"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc"
+=======
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/CMakeLists.txt"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/CMakeLists.txt"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/package.xml"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images.qrc"
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   "/opt/ros/kinetic/share/catkin/cmake/../package.xml"
   "/opt/ros/kinetic/share/catkin/cmake/all.cmake"
   "/opt/ros/kinetic/share/catkin/cmake/assert.cmake"

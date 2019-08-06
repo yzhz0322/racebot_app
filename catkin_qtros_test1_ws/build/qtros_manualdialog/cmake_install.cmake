@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install")
+=======
+# Install script for directory: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +41,31 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialog.pc")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialog.pc")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qtros_manualdialog/cmake" TYPE FILE FILES
+<<<<<<< HEAD
     "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialogConfig.cmake"
     "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialogConfig-version.cmake"
+=======
+    "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialogConfig.cmake"
+    "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/catkin_generated/installspace/qtros_manualdialogConfig-version.cmake"
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qtros_manualdialog" TYPE FILE FILES "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/package.xml")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/qtros_manualdialog" TYPE FILE FILES "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/package.xml")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +75,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qtros_manualdialog/qtros_manualdialog"
          RPATH "")
   endif()
+<<<<<<< HEAD
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/qtros_manualdialog" TYPE EXECUTABLE FILES "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog")
+=======
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/qtros_manualdialog" TYPE EXECUTABLE FILES "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qtros_manualdialog/qtros_manualdialog" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/qtros_manualdialog/qtros_manualdialog")
     file(RPATH_CHANGE

@@ -48,10 +48,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +142,15 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles 0
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/progress.marks
+	$(MAKE) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles 0
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 .PHONY : all
 
 # The main clean target

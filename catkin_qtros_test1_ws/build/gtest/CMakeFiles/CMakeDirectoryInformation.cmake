@@ -3,7 +3,11 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gmock")
+<<<<<<< HEAD
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build")
+=======
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

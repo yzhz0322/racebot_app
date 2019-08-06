@@ -1,4 +1,5 @@
 # Hashes of file build rules.
+<<<<<<< HEAD
 37a31792526a2b0a5fcc84af6e9492ab CMakeFiles/clean_test_results
 297a0b5769f6639094a80e62f8be25e8 qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
 0832baafee6e47c03e6d4cfbb3ba39ab qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
@@ -6,3 +7,12 @@ e3bc4f873ef868747434957a95a89496 qtros_manualdialog/include/qtros_manualdialog/m
 c23585ae770740869bfccaea5aaf6bff qtros_manualdialog/qrc_images.cxx
 ddeefe8a3bb9aabdded13519932b64fe qtros_manualdialog/ui_main_window.h
 c01dc02c7795bd6e6c8aa0714173a041 qtros_manualdialog/ui_manualdialog.h
+=======
+1c4fc92ae728217707b5dab2fe613e7e CMakeFiles/clean_test_results
+48f1cbfa1637157a40542452d39a1329 qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
+16eeb4d882196a86b1ee105d76ad82ee qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
+8a230532fd589739c2f2cd016720253f qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
+bd0daa07ea99b7939bd16907c69b3168 qtros_manualdialog/qrc_images.cxx
+6bee643460e58978dc14035aa1458048 qtros_manualdialog/ui_main_window.h
+0319a62915a637f6bb54fc3e34054318 qtros_manualdialog/ui_manualdialog.h
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680

@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libgtest_main.so -o libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest/src -lpthread libgtest.so -lpthread -Wl,-rpath,/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest/src:/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest 
+=======
+/usr/bin/c++  -fPIC -g  -shared -Wl,-soname,libgtest_main.so -o libgtest_main.so CMakeFiles/gtest_main.dir/src/gtest_main.cc.o  -L/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest/src -lpthread libgtest.so -lpthread -Wl,-rpath,/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest/src:/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/gtest/gtest 
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680

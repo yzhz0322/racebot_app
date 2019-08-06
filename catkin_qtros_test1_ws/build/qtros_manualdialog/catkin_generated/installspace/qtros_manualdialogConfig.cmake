@@ -67,14 +67,23 @@ set(qtros_manualdialog_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
+<<<<<<< HEAD
   set(qtros_manualdialog_SOURCE_PREFIX /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog)
   set(qtros_manualdialog_DEVEL_PREFIX /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel)
+=======
+  set(qtros_manualdialog_SOURCE_PREFIX /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog)
+  set(qtros_manualdialog_DEVEL_PREFIX /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel)
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   set(qtros_manualdialog_INSTALL_PREFIX "")
   set(qtros_manualdialog_PREFIX ${qtros_manualdialog_DEVEL_PREFIX})
 else()
   set(qtros_manualdialog_SOURCE_PREFIX "")
   set(qtros_manualdialog_DEVEL_PREFIX "")
+<<<<<<< HEAD
   set(qtros_manualdialog_INSTALL_PREFIX /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install)
+=======
+  set(qtros_manualdialog_INSTALL_PREFIX /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install)
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   set(qtros_manualdialog_PREFIX ${qtros_manualdialog_INSTALL_PREFIX})
 endif()
 
@@ -110,7 +119,11 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'qtros_manualdialog' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
+<<<<<<< HEAD
       message(FATAL_ERROR "Project 'qtros_manualdialog' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install/${idir}'.  ${_report}")
+=======
+      message(FATAL_ERROR "Project 'qtros_manualdialog' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install/${idir}'.  ${_report}")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
     endif()
     _list_append_unique(qtros_manualdialog_INCLUDE_DIRS ${include})
   endforeach()
@@ -131,7 +144,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install/lib;/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install/lib;/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib;/home/yzhz-ubuntu1604/racecar/devel/lib;/opt/ros/kinetic/lib)
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

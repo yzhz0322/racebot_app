@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install")
+=======
+  set(CMAKE_INSTALL_PREFIX "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install")
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +61,11 @@ CMAKE_BINARY_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
+<<<<<<< HEAD
 	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/test_results
+=======
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/test_results
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +82,10 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
+<<<<<<< HEAD
 	cd /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

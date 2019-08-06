@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 prefix=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel
+=======
+prefix=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 Name: qtros_manualdialog
 Description: Description of qtros_manualdialog
 Version: 0.1.0
 Cflags: 
+<<<<<<< HEAD
 Libs: -L/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib 
+=======
+Libs: -L/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib 
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 Requires: 

@@ -9,7 +9,11 @@
 #include <QtCore/qglobal.h>
 
 static const unsigned char qt_resource_data[] = {
+<<<<<<< HEAD
   // /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images/icon.png
+=======
+  // /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/resources/images/icon.png
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   0x0,0x0,0x91,0x13,
   0x89,
   0x50,0x4e,0x47,0xd,0xa,0x1a,0xa,0x0,0x0,0x0,0xd,0x49,0x48,0x44,0x52,0x0,

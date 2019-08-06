@@ -1,2 +1,6 @@
 - setup-file:
+<<<<<<< HEAD
     local-name: /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install/setup.sh
+=======
+    local-name: /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/install/setup.sh
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+<<<<<<< HEAD
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o"
@@ -12,6 +13,16 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o"
   "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp" "/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o"
+=======
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_main_window.cxx.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_manualdialog.cxx.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/include/qtros_manualdialog/moc_qnode.cxx.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/qrc_images.cxx.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main.cpp.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/main_window.cpp.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/manualdialog.cpp.o"
+  "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp" "/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/qtros_manualdialog.dir/src/qnode.cpp.o"
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

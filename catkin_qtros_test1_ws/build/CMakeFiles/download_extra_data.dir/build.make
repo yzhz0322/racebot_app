@@ -43,10 +43,17 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
+<<<<<<< HEAD
 CMAKE_SOURCE_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build
+=======
+CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src
+
+# The top-level build directory on which CMake was run.
+CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +74,10 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
+<<<<<<< HEAD
 	cd /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+=======
+	cd /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

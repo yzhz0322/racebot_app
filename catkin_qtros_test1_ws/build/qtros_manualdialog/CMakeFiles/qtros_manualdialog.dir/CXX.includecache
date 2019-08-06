@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
 ../../../../src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
@@ -39,6 +40,41 @@ qnode.hpp
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
 
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+=======
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_main_window.cxx
+../../../../src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_manualdialog.cxx
+../../../../src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/include/qtros_manualdialog/moc_qnode.cxx
+../../../../src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/qrc_images.cxx
+QtCore/qglobal.h
+-
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+QtGui/QMainWindow
+-
+ui_main_window.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/ui_main_window.h
+qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+QDialog
+-
+qnode.hpp
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 ros/ros.h
 -
 string
@@ -50,15 +86,25 @@ QStringListModel
 std_msgs/String.h
 -
 
+<<<<<<< HEAD
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
+=======
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main.cpp
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 QtGui
 -
 QApplication
 -
 ../include/qtros_manualdialog/main_window.hpp
+<<<<<<< HEAD
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
+=======
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/main_window.cpp
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 QtGui
 -
 QMessageBox
@@ -66,6 +112,7 @@ QMessageBox
 iostream
 -
 ../include/qtros_manualdialog/main_window.hpp
+<<<<<<< HEAD
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
@@ -77,6 +124,17 @@ ui_manualdialog.h
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
 
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
+=======
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/main_window.hpp
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/manualdialog.cpp
+../include/qtros_manualdialog/manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/manualdialog.h
+ui_manualdialog.h
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/ui_manualdialog.h
+
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/src/qnode.cpp
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 ros/ros.h
 -
 ros/network.h
@@ -88,7 +146,11 @@ std_msgs/String.h
 sstream
 -
 ../include/qtros_manualdialog/qnode.hpp
+<<<<<<< HEAD
 /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+=======
+/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog/include/qtros_manualdialog/qnode.hpp
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 geometry_msgs/Twist.h
 -
 qdebug.h

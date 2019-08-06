@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 4.4.1, 2019-08-05T16:05:42. -->
+=======
+<!-- Written by QtCreator 4.4.1, 2019-08-05T15:18:54. -->
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -112,6 +116,7 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+<<<<<<< HEAD
      <value type="QString">CMAKE_PREFIX_PATH=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel:/opt/ros/kinetic</value>
      <value type="QString">LD_LIBRARY_PATH=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
      <value type="QString">PATH=/opt/ros/kinetic/bin:/home/nz/bin:/home/nz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
@@ -124,6 +129,20 @@
      <value type="QString">ROS_ETC_DIR=/opt/ros/kinetic/etc/ros</value>
      <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
      <value type="QString">ROS_PACKAGE_PATH=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src:/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src:/opt/ros/kinetic/share</value>
+=======
+     <value type="QString">CMAKE_PREFIX_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel:/home/yzhz-ubuntu1604/racecar/devel:/opt/ros/kinetic</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib:/home/yzhz-ubuntu1604/racecar/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
+     <value type="QString">PATH=/opt/ros/kinetic/bin:/home/yzhz-ubuntu1604/bin:/home/yzhz-ubuntu1604/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/pkgconfig:/home/yzhz-ubuntu1604/racecar/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
+     <value type="QString">PWD=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws</value>
+     <value type="QString">PYTHONPATH=/home/yzhz-ubuntu1604/racecar/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages</value>
+     <value type="QString">QTDIR</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/share/common-lisp:/home/yzhz-ubuntu1604/racecar/devel/share/common-lisp</value>
+     <value type="QString">ROS_DISTRO=kinetic</value>
+     <value type="QString">ROS_ETC_DIR=/opt/ros/kinetic/etc/ros</value>
+     <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src:/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/src:/home/ubuntu/racecar-ws/src:/opt/ros/kinetic/share</value>
+>>>>>>> 25aa41b95c6b575e8d1a0e6631d084a1faf5f680
      <value type="QString">ROS_ROOT=/opt/ros/kinetic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
      <value type="QString">SHLVL=2</value>
