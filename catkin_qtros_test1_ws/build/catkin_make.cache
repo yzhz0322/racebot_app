@@ -1,2 +1,0 @@
-qtros_manualdialog
--G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/install
