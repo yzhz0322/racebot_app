@@ -69,7 +69,7 @@ public Q_SLOTS:
 
 private:
 	Ui::MainWindowDesign ui;
-  QNode qnode;
+    QNode qnode;
 };
 
 }  // namespace qtros_manualdialog

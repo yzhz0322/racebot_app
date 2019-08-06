@@ -176,32 +176,31 @@ void MainWindow::closeEvent(QCloseEvent *event)
 
 void qtros_manualdialog::MainWindow::on_pushButton_dialog_clicked()
 {
-    manualDialog *dlg= new manualDialog;
-
-    dlg->show();
+    manualDialog *pDlg= new manualDialog(this);
+    pDlg->show();
 }
 
 void qtros_manualdialog::MainWindow::on_pushButton_stop_clicked()
 {
- this->close();
+    this->close();
 }
 
 void qtros_manualdialog::MainWindow::on_pushButton_forward_clicked()
 {
- qnode.Forward();
+    qnode.forward();
 }
 
 void qtros_manualdialog::MainWindow::on_pushButton_left_clicked()
 {
- qnode.Left();
+    qnode.left();
 }
 
 void qtros_manualdialog::MainWindow::on_pushButton_right_clicked()
 {
- qnode.Right();
+    qnode.right();
 }
 
 void qtros_manualdialog::MainWindow::on_pushButton_backward_clicked()
 {
- qnode.Backward();
+ qnode.backward();
 }

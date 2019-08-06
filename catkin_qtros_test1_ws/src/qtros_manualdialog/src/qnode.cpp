@@ -108,7 +108,7 @@ bool QNode::init(const std::string &master_url, const std::string &host_url)
 
 
 
-void QNode::Forward()
+void QNode::forward()
 {
   ros::Rate loop_rate(10);
 
@@ -126,7 +126,7 @@ void QNode::Forward()
   log(Info,std::string("Forward"));
 }
 
-void QNode::Backward()
+void QNode::backward()
 {
   ros::Rate loop_rate(10);
 
@@ -144,7 +144,7 @@ void QNode::Backward()
   log(Info,std::string("Backward"));
 }
 
-void QNode::Left()
+void QNode::left()
 {
   ros::Rate loop_rate(10);
 
@@ -162,7 +162,7 @@ void QNode::Left()
   log(Info,std::string("Left"));
 }
 
-void QNode::Right()
+void QNode::right()
 {
   ros::Rate loop_rate(10);
 

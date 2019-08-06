@@ -46,10 +46,11 @@ public:
 	bool init(const std::string &master_url, const std::string &host_url);
   //void run();
 
-    void Forward();
-    void Backward();
-    void Left();
-    void Right();
+    void forward();
+    void backward();
+    void left();
+    void right();
+
 	/*********************
 	** Logging
 	**********************/

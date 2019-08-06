@@ -24,35 +24,35 @@
    </property>
    <layout class="QGridLayout" name="gridLayout">
     <item row="1" column="0">
-     <widget class="QPushButton" name="pushButton_Left">
+     <widget class="QPushButton" name="button_left">
       <property name="text">
        <string>Left</string>
       </property>
      </widget>
     </item>
     <item row="3" column="2">
-     <widget class="QPushButton" name="pushButton_Back">
+     <widget class="QPushButton" name="button_back">
       <property name="text">
        <string>Back</string>
       </property>
      </widget>
     </item>
     <item row="1" column="2">
-     <widget class="QPushButton" name="pushButton_Right">
+     <widget class="QPushButton" name="button_right">
       <property name="text">
        <string>Right</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
-     <widget class="QPushButton" name="pushButton_Forward">
+     <widget class="QPushButton" name="button_forward">
       <property name="text">
        <string>Forward</string>
       </property>
      </widget>
     </item>
     <item row="2" column="1">
-     <widget class="QPushButton" name="pushButton_Backward">
+     <widget class="QPushButton" name="button_backward">
       <property name="text">
        <string>Backward</string>
       </property>

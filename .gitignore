@@ -1,0 +1,6 @@
+../catkin_qtros_test1_ws/build/*.*
+../catkin_qtros_test1_ws/devel/*.*
+../build/*
+../devel/*
+/catkin_qtros_test1_ws/build/*.*
+/catkin_qtros_test1_ws/devel/*.*

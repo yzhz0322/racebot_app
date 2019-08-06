@@ -30,21 +30,21 @@ static const uint qt_meta_data_manualDialog[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      14,   13,   13,   13, 0x0a,
-      46,   13,   13,   13, 0x0a,
-      76,   13,   13,   13, 0x0a,
-     105,   13,   13,   13, 0x0a,
-     138,   13,   13,   13, 0x0a,
+      14,   13,   13,   13, 0x08,
+      39,   13,   13,   13, 0x08,
+      67,   13,   13,   13, 0x08,
+      93,   13,   13,   13, 0x08,
+     122,   13,   13,   13, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_manualDialog[] = {
-    "manualDialog\0\0on_pushButton_Forward_clicked()\0"
-    "on_pushButton_Right_clicked()\0"
-    "on_pushButton_Left_clicked()\0"
-    "on_pushButton_Backward_clicked()\0"
-    "on_pushButton_Back_clicked()\0"
+    "manualDialog\0\0on_button_left_clicked()\0"
+    "on_button_forward_clicked()\0"
+    "on_button_right_clicked()\0"
+    "on_button_backward_clicked()\0"
+    "on_button_back_clicked()\0"
 };
 
 void manualDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -53,11 +53,11 @@ void manualDialog::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         Q_ASSERT(staticMetaObject.cast(_o));
         manualDialog *_t = static_cast<manualDialog *>(_o);
         switch (_id) {
-        case 0: _t->on_pushButton_Forward_clicked(); break;
-        case 1: _t->on_pushButton_Right_clicked(); break;
-        case 2: _t->on_pushButton_Left_clicked(); break;
-        case 3: _t->on_pushButton_Backward_clicked(); break;
-        case 4: _t->on_pushButton_Back_clicked(); break;
+        case 0: _t->on_button_left_clicked(); break;
+        case 1: _t->on_button_forward_clicked(); break;
+        case 2: _t->on_button_right_clicked(); break;
+        case 3: _t->on_button_backward_clicked(); break;
+        case 4: _t->on_button_back_clicked(); break;
         default: ;
         }
     }

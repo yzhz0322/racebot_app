@@ -21,21 +21,23 @@ public:
   explicit manualDialog(QWidget *parent = 0);
   virtual ~manualDialog();
 
-//private Q_SLOTS:
-public Q_SLOTS:
-  void on_pushButton_Forward_clicked();
 
-  void on_pushButton_Right_clicked();
 
-  void on_pushButton_Left_clicked();
 
-  void on_pushButton_Backward_clicked();
+private Q_SLOTS:
+    void on_button_left_clicked();
 
-  void on_pushButton_Back_clicked();
+    void on_button_forward_clicked();
+
+    void on_button_right_clicked();
+
+    void on_button_backward_clicked();
+
+    void on_button_back_clicked();
 
 private:
   Ui::manualDialog *ui;
-  qtros_manualdialog::QNode *qnode;
+
 
 };
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src
+CMAKE_SOURCE_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build
+CMAKE_BINARY_DIR = /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build: 
 .PHONY : qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 
 qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src/qtros_manualdialog /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog /home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src/qtros_manualdialog /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog /home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build/qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : qtros_manualdialog/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

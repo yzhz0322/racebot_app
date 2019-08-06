@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2019-08-05T16:05:42. -->
+<!-- Written by QtCreator 4.4.1, 2019-08-05T11:48:45. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{8b9cb874-c371-47df-b75b-238a3e315cd9}</value>
+  <value type="QByteArray">{949577cb-ebd9-4c06-842e-4a4974336e08}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -19,7 +19,7 @@
    <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.0">
     <value type="QString" key="language">Cpp</value>
     <valuemap type="QVariantMap" key="value">
-     <value type="QByteArray" key="CurrentPreferences">CppGlobal</value>
+     <value type="QByteArray" key="CurrentPreferences">ROSProject.CppCodeStyle</value>
     </valuemap>
    </valuemap>
    <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.1">
@@ -59,9 +59,9 @@
  <data>
   <variable>ProjectExplorer.Project.Target.0</variable>
   <valuemap type="QVariantMap">
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop</value>
-   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{48701e01-c0f1-439d-b552-1a315b2bc89e}</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">桌面</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">桌面</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{07b69b07-677a-4c5d-bd48-704c0ca5fca9}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
@@ -78,17 +78,7 @@
       <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.MakeArguments"></value>
       <value type="int" key="ROSProjectManager.ROSCatkinMakeStep.Target">0</value>
      </valuemap>
-     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
-      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">CatkinMake Step</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSCatkinMakeStep</value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.CatkinMakeArguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSCatkinMakeStep.MakeArguments"></value>
-      <value type="int" key="ROSProjectManager.ROSCatkinMakeStep.Target">0</value>
-     </valuemap>
-     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">2</value>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
@@ -112,24 +102,23 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel:/opt/ros/kinetic</value>
-     <value type="QString">LD_LIBRARY_PATH=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
-     <value type="QString">PATH=/opt/ros/kinetic/bin:/home/nz/bin:/home/nz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
-     <value type="QString">PWD=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws</value>
+     <value type="QString">CMAKE_PREFIX_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel:/opt/ros/kinetic</value>
+     <value type="QString">LD_LIBRARY_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu</value>
+     <value type="QString">PATH=/opt/ros/kinetic/bin:/home/yzhz-ubuntu1604/bin:/home/yzhz-ubuntu1604/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
+     <value type="QString">PKG_CONFIG_PATH=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig</value>
+     <value type="QString">PWD=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws</value>
      <value type="QString">PYTHONPATH=/opt/ros/kinetic/lib/python2.7/dist-packages</value>
      <value type="QString">QTDIR</value>
-     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/share/common-lisp</value>
+     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/yzhz-ubuntu1604/racebot_app/catkin_qtros_test1_ws/devel/share/common-lisp</value>
      <value type="QString">ROS_DISTRO=kinetic</value>
      <value type="QString">ROS_ETC_DIR=/opt/ros/kinetic/etc/ros</value>
      <value type="QString">ROS_MASTER_URI=http://localhost:11311</value>
-     <value type="QString">ROS_PACKAGE_PATH=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src:/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/src:/opt/ros/kinetic/share</value>
+     <value type="QString">ROS_PACKAGE_PATH=/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/src:/opt/ros/kinetic/share</value>
      <value type="QString">ROS_ROOT=/opt/ros/kinetic/share/ros</value>
      <value type="QString">ROS_VERSION=1</value>
      <value type="QString">SHLVL=2</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
-     <value type="QString">force_s3tc_enable=true</value>
     </valuelist>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Debug</value>
@@ -374,28 +363,16 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.0">
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSAttachToNode</value>
-      <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">debug</value>
-      <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">qtros_manualdialog</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">qtros_manualdialog</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog</value>
-     </valuemap>
-     <valuemap type="QVariantMap" key="ProjectExplorer.RunStepList.Step.1">
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName"></value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ROSProjectManager.ROSRunStep</value>
       <value type="bool" key="ProjectExplorer.RunStep.Enabled">true</value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">qtros_manualdialog</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">qtros_manualdialog</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/devel/lib/qtros_manualdialog/qtros_manualdialog</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
      </valuemap>
-     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">2</value>
+     <value type="int" key="ProjectExplorer.RunStepList.StepsCount">1</value>
     </valuemap>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>

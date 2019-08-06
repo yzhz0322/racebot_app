@@ -26,11 +26,11 @@ class Ui_manualDialog
 public:
     QWidget *layoutWidget;
     QGridLayout *gridLayout;
-    QPushButton *pushButton_Left;
-    QPushButton *pushButton_Back;
-    QPushButton *pushButton_Right;
-    QPushButton *pushButton_Forward;
-    QPushButton *pushButton_Backward;
+    QPushButton *button_left;
+    QPushButton *button_back;
+    QPushButton *button_right;
+    QPushButton *button_forward;
+    QPushButton *button_backward;
 
     void setupUi(QDialog *manualDialog)
     {
@@ -43,30 +43,30 @@ public:
         gridLayout = new QGridLayout(layoutWidget);
         gridLayout->setObjectName(QString::fromUtf8("gridLayout"));
         gridLayout->setContentsMargins(0, 0, 0, 0);
-        pushButton_Left = new QPushButton(layoutWidget);
-        pushButton_Left->setObjectName(QString::fromUtf8("pushButton_Left"));
+        button_left = new QPushButton(layoutWidget);
+        button_left->setObjectName(QString::fromUtf8("button_left"));
 
-        gridLayout->addWidget(pushButton_Left, 1, 0, 1, 1);
+        gridLayout->addWidget(button_left, 1, 0, 1, 1);
 
-        pushButton_Back = new QPushButton(layoutWidget);
-        pushButton_Back->setObjectName(QString::fromUtf8("pushButton_Back"));
+        button_back = new QPushButton(layoutWidget);
+        button_back->setObjectName(QString::fromUtf8("button_back"));
 
-        gridLayout->addWidget(pushButton_Back, 3, 2, 1, 1);
+        gridLayout->addWidget(button_back, 3, 2, 1, 1);
 
-        pushButton_Right = new QPushButton(layoutWidget);
-        pushButton_Right->setObjectName(QString::fromUtf8("pushButton_Right"));
+        button_right = new QPushButton(layoutWidget);
+        button_right->setObjectName(QString::fromUtf8("button_right"));
 
-        gridLayout->addWidget(pushButton_Right, 1, 2, 1, 1);
+        gridLayout->addWidget(button_right, 1, 2, 1, 1);
 
-        pushButton_Forward = new QPushButton(layoutWidget);
-        pushButton_Forward->setObjectName(QString::fromUtf8("pushButton_Forward"));
+        button_forward = new QPushButton(layoutWidget);
+        button_forward->setObjectName(QString::fromUtf8("button_forward"));
 
-        gridLayout->addWidget(pushButton_Forward, 0, 1, 1, 1);
+        gridLayout->addWidget(button_forward, 0, 1, 1, 1);
 
-        pushButton_Backward = new QPushButton(layoutWidget);
-        pushButton_Backward->setObjectName(QString::fromUtf8("pushButton_Backward"));
+        button_backward = new QPushButton(layoutWidget);
+        button_backward->setObjectName(QString::fromUtf8("button_backward"));
 
-        gridLayout->addWidget(pushButton_Backward, 2, 1, 1, 1);
+        gridLayout->addWidget(button_backward, 2, 1, 1, 1);
 
 
         retranslateUi(manualDialog);
@@ -77,11 +77,11 @@ public:
     void retranslateUi(QDialog *manualDialog)
     {
         manualDialog->setWindowTitle(QApplication::translate("manualDialog", "Dialog", 0, QApplication::UnicodeUTF8));
-        pushButton_Left->setText(QApplication::translate("manualDialog", "Left", 0, QApplication::UnicodeUTF8));
-        pushButton_Back->setText(QApplication::translate("manualDialog", "Back", 0, QApplication::UnicodeUTF8));
-        pushButton_Right->setText(QApplication::translate("manualDialog", "Right", 0, QApplication::UnicodeUTF8));
-        pushButton_Forward->setText(QApplication::translate("manualDialog", "Forward", 0, QApplication::UnicodeUTF8));
-        pushButton_Backward->setText(QApplication::translate("manualDialog", "Backward", 0, QApplication::UnicodeUTF8));
+        button_left->setText(QApplication::translate("manualDialog", "Left", 0, QApplication::UnicodeUTF8));
+        button_back->setText(QApplication::translate("manualDialog", "Back", 0, QApplication::UnicodeUTF8));
+        button_right->setText(QApplication::translate("manualDialog", "Right", 0, QApplication::UnicodeUTF8));
+        button_forward->setText(QApplication::translate("manualDialog", "Forward", 0, QApplication::UnicodeUTF8));
+        button_backward->setText(QApplication::translate("manualDialog", "Backward", 0, QApplication::UnicodeUTF8));
     } // retranslateUi
 
 };

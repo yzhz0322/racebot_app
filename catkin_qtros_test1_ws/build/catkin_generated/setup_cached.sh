@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/yzhz-ubuntu1604/qtros_test/catkin_qtros_test1_ws/build"
+export PWD="/home/nz/GIT/racebot_app/catkin_qtros_test1_ws/build"
